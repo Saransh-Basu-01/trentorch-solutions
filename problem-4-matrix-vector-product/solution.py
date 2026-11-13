@@ -6,3 +6,4 @@ def solve(A, x):
     A=np.asarray(A)
     x=np.asarray(x)
     return A@x
+    # return np.array([row @ x for row in A])
